@@ -1,0 +1,30 @@
+PassiveNetwork
+(c) 2011 Emanuele Acri <crossbower@gmail.com>
+
+Project site: https://github.com/TigerSecurity/PassiveNetwork
+
+General description:
+--------------------
+
+PassiveNetwork is a imultiplatform tool that allows to manipulate client-server connections in several ways.
+It's based on QT4 libraries and QScintilla.
+
+Compile:
+--------
+
+To compile the tool you need QT4 libraries and QScintilla.
+
+The easiest way to compile it is to use QTCreator from Nokia:
+https://qt.nokia.com/products/developer-tools/
+
+A precompiled version for windows is already included.
+
+Usage:
+------
+
+Through PassiveNetwork is possible to alter the data flow in several ways:
+
+ * Manually, using the Text Editor or the Hex Editor (with or without the help of a feature that block the connection if a particular string is detected, using regular expressions)
+ * Automatically, through replaces defined by regular expressions.
+
+You can also use the program as a substitute for netcat, to make connections to remote services or to forward ports on operating systems that can not do this by default. For this reason the application is also distributed as a precompiled binary for Windows.

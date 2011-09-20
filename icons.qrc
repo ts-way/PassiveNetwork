@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>fileopen.svg</file>
+        <file>filesaveas.svg</file>
+        <file>gnome-fs-network.svg</file>
+        <file>gtk-help.svg</file>
+        <file>info.svg</file>
+    </qresource>
+</RCC>
